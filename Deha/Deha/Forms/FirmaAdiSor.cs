@@ -28,7 +28,7 @@ namespace Deha.Forms
             }
             else
             {
-                string connectionString = string.Format("data source=89.252.184.167\\MSSQLSERVER2017;initial catalog={0};persist security info=True;user id=sa;password=dehapos@1.;", _haliposmain.dbname);
+                string connectionString = string.Format();
                 Settings.Default["_connectionstring"] = connectionString;
                 try
                 {
