@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deha", "Deha\Deha.csproj", "{CE9D76B4-23A9-465A-BEAF-D2B4ED126434}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DehaPos", "DehaPos\DehaPos.vdproj", "{8FF75146-6309-4E4B-84CB-2B5F4DA5BDAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9D76B4-23A9-465A-BEAF-D2B4ED126434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9D76B4-23A9-465A-BEAF-D2B4ED126434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9D76B4-23A9-465A-BEAF-D2B4ED126434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9D76B4-23A9-465A-BEAF-D2B4ED126434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF75146-6309-4E4B-84CB-2B5F4DA5BDAF}.Debug|Any CPU.ActiveCfg = Debug
+		{8FF75146-6309-4E4B-84CB-2B5F4DA5BDAF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5309C82-B407-43A3-AD4B-10E1554A0094}
+	EndGlobalSection
+EndGlobal

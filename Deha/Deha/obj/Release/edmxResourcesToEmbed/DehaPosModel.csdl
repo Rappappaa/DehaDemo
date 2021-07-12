@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="halipos_testModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="area">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="company">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ref_sms_users" Type="Int32" />
+    <Property Name="ref_upon_receipt" Type="Int32" />
+    <Property Name="ref_new_order_sms" Type="Int32" />
+    <Property Name="ref_when_delivered" Type="Int32" />
+    <Property Name="send_upon_receipt" Type="Int32" />
+    <Property Name="send_new_order_sms" Type="Int32" />
+    <Property Name="send_when_delivered" Type="Int32" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="receiveds" Relationship="Self.FK_received_company" FromRole="company" ToRole="received" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="countryCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="gsm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ref_areas" Type="Int32" Nullable="false" />
+    <Property Name="adress" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="coordinat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="balance" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="invoices" Relationship="Self.FK_invoice_customers" FromRole="customers" ToRole="invoice" />
+    <NavigationProperty Name="receiveds" Relationship="Self.FK_received_customers" FromRole="customers" ToRole="received" />
+  </EntityType>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ref_customer" Type="Int32" />
+    <Property Name="ref_orders" Type="Int32" />
+    <Property Name="total" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="collect" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="type" Type="Int32" />
+    <Property Name="payment_type" Type="Int32" />
+    <Property Name="note" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="customer" Relationship="Self.FK_invoice_customers" FromRole="invoice" ToRole="customers" />
+    <NavigationProperty Name="user" Relationship="Self.FK_invoice_users" FromRole="invoice" ToRole="users" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ref_received" Type="Int32" />
+    <Property Name="total" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="discount" Type="Int32" Nullable="false" />
+    <Property Name="amount" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+    <Property Name="calculatedUsed" Type="Boolean" />
+    <Property Name="ranking" Type="Int32" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <Property Name="mod_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="orders_detail" Relationship="Self.FK_orders_detail_orders" FromRole="orders" ToRole="orders_detail" />
+    <NavigationProperty Name="received" Relationship="Self.FK_orders_received" FromRole="orders" ToRole="received" />
+  </EntityType>
+  <EntityType Name="orders_detail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ref_orders" Type="Int32" Nullable="false" />
+    <Property Name="m2" Type="Double" Nullable="false" />
+    <Property Name="product_number" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="order" Relationship="Self.FK_orders_detail_orders" FromRole="orders_detail" ToRole="orders" />
+  </EntityType>
+  <EntityType Name="printer_list">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="names" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="adress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="received">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="purchase_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="received_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ref_customer" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="note" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ref_vehicle" Type="Int32" />
+    <Property Name="ref_company" Type="Int32" />
+    <Property Name="ranking" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <Property Name="mod_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="company" Relationship="Self.FK_received_company" FromRole="received" ToRole="company" />
+    <NavigationProperty Name="customer" Relationship="Self.FK_received_customers" FromRole="received" ToRole="customers" />
+    <NavigationProperty Name="orders" Relationship="Self.FK_orders_received" FromRole="received" ToRole="orders" />
+    <NavigationProperty Name="user" Relationship="Self.FK_received_users" FromRole="received" ToRole="users" />
+    <NavigationProperty Name="vehicle" Relationship="Self.FK_received_vehicle" FromRole="received" ToRole="vehicle" />
+  </EntityType>
+  <EntityType Name="setting">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="business_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="money_unit" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="howmanyday_process" Type="Int32" />
+    <Property Name="onesignal_id" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="app_version" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="max_firm" Type="Int32" />
+  </EntityType>
+  <EntityType Name="sms_template">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="type" Type="Byte" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="sms_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="smslog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="upload_sms" Type="Int32" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ref_vehicle" Type="Int32" />
+    <Property Name="admin" Type="Boolean" Nullable="false" />
+    <Property Name="auth_direct_sale" Type="Boolean" Nullable="false" />
+    <Property Name="auth_order" Type="Boolean" Nullable="false" />
+    <Property Name="auth_customer_change" Type="Boolean" Nullable="false" />
+    <Property Name="auth_expense_add" Type="Boolean" Nullable="false" />
+    <Property Name="auth_report" Type="Boolean" Nullable="false" />
+    <Property Name="auth_product" Type="Boolean" Nullable="false" />
+    <Property Name="auth_vehicle" Type="Boolean" Nullable="false" />
+    <Property Name="auth_area" Type="Boolean" Nullable="false" />
+    <Property Name="auth_settings" Type="Boolean" Nullable="false" />
+    <Property Name="auth_company" Type="Boolean" Nullable="false" />
+    <Property Name="auth_collective_sms" Type="Boolean" Nullable="false" />
+    <Property Name="auth_sms_user" Type="Boolean" Nullable="false" />
+    <Property Name="auth_all_vehicle" Type="Boolean" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <Property Name="ref_printnormal" Type="Int32" />
+    <Property Name="ref_printtag" Type="Int32" />
+    <Property Name="auth_offline_mode" Type="Boolean" />
+    <NavigationProperty Name="invoices" Relationship="Self.FK_invoice_users" FromRole="users" ToRole="invoice" />
+    <NavigationProperty Name="receiveds" Relationship="Self.FK_received_users" FromRole="users" ToRole="received" />
+  </EntityType>
+  <EntityType Name="vehicle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="receiveds" Relationship="Self.FK_received_vehicle" FromRole="vehicle" ToRole="received" />
+  </EntityType>
+  <Association Name="FK_received_company">
+    <End Role="company" Type="Self.company" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="company">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_company" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_invoice_customers">
+    <End Role="customers" Type="Self.customer" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="invoice" Type="Self.invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="invoice">
+        <PropertyRef Name="ref_customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_received_customers">
+    <End Role="customers" Type="Self.customer" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_invoice_users">
+    <End Role="users" Type="Self.user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="invoice" Type="Self.invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="invoice">
+        <PropertyRef Name="ref_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orders_detail_orders">
+    <End Role="orders" Type="Self.order" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="orders_detail" Type="Self.orders_detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="orders">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="orders_detail">
+        <PropertyRef Name="ref_orders" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orders_received">
+    <End Role="received" Type="Self.received" Multiplicity="0..1" />
+    <End Role="orders" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="received">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="ref_received" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_received_users">
+    <End Role="users" Type="Self.user" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_received_vehicle">
+    <End Role="vehicle" Type="Self.vehicle" Multiplicity="0..1" />
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vehicle">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_vehicle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="halipos_testEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="areas" EntityType="Self.area" />
+    <EntitySet Name="companies" EntityType="Self.company" />
+    <EntitySet Name="customers" EntityType="Self.customer" />
+    <EntitySet Name="invoices" EntityType="Self.invoice" />
+    <EntitySet Name="orders" EntityType="Self.order" />
+    <EntitySet Name="orders_detail" EntityType="Self.orders_detail" />
+    <EntitySet Name="printer_list" EntityType="Self.printer_list" />
+    <EntitySet Name="products" EntityType="Self.product" />
+    <EntitySet Name="receiveds" EntityType="Self.received" />
+    <EntitySet Name="settings" EntityType="Self.setting" />
+    <EntitySet Name="sms_template" EntityType="Self.sms_template" />
+    <EntitySet Name="sms_users" EntityType="Self.sms_users" />
+    <EntitySet Name="smslogs" EntityType="Self.smslog" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <EntitySet Name="vehicles" EntityType="Self.vehicle" />
+    <AssociationSet Name="FK_received_company" Association="Self.FK_received_company">
+      <End Role="company" EntitySet="companies" />
+      <End Role="received" EntitySet="receiveds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_invoice_customers" Association="Self.FK_invoice_customers">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="invoice" EntitySet="invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_received_customers" Association="Self.FK_received_customers">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="received" EntitySet="receiveds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_invoice_users" Association="Self.FK_invoice_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="invoice" EntitySet="invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orders_detail_orders" Association="Self.FK_orders_detail_orders">
+      <End Role="orders" EntitySet="orders" />
+      <End Role="orders_detail" EntitySet="orders_detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orders_received" Association="Self.FK_orders_received">
+      <End Role="received" EntitySet="receiveds" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_received_users" Association="Self.FK_received_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="received" EntitySet="receiveds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_received_vehicle" Association="Self.FK_received_vehicle">
+      <End Role="vehicle" EntitySet="vehicles" />
+      <End Role="received" EntitySet="receiveds" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

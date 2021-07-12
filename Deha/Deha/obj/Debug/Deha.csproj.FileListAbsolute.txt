@@ -1,0 +1,825 @@
+D:\Deha2\Deha\Deha\obj\Debug\Deha.csprojAssemblyReference.cache
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.Adet.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.AdetveM2.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.AlinacakKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.AracKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.AyarlarKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.BolgeKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.DirekSatis.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.FirmaKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.GenelRaporDisaAktar.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.GiderEkle.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.KullaniciKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.LoginPage.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.MusteriKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.MusteriListesi.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.SistemAyarlari.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.SmsSablonKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.SmsUyelikKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.SplashScreen1.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.TeslimveTahsilat.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.UrunKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.UrunListesi.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.YikanacakKart.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.AlinacaklarListesi.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Properties.Resources.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.MainForm.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.AnaSayfa.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.Araclar.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.Ayarlar.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.Bolgeler.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.Firmalar.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.GenelRapor.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.GunOzeti.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.HizmetRaporlari.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.Kullanicilar.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.Musteriler.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.SmsSablonlari.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.SmsUyelikleri.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.TeslimListesi.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.Urunler.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.UrunSatisRaporlari.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.UserControls.YikanacaklarListesi.resources
+D:\Deha2\Deha\Deha\obj\Debug\Deha.csproj.GenerateResource.cache
+D:\Deha2\Deha\Deha\obj\Debug\Deha.exe.licenses
+D:\Deha2\Deha\Deha\obj\Debug\Deha.csproj.CoreCompileInputs.cache
+D:\Deha2\Deha\Deha\obj\Debug\Deha.exe
+D:\Deha2\Deha\Deha\obj\Debug\Deha.pdb
+D:\Deha2\Deha\Deha\bin\Debug\Deha.exe.config
+D:\Deha2\Deha\Deha\bin\Debug\Deha.exe
+D:\Deha2\Deha\Deha\bin\Debug\Deha.pdb
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\EntityFramework.dll
+D:\Deha2\Deha\Deha\bin\Debug\EntityFramework.SqlServer.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\EntityFramework.xml
+D:\Deha2\Deha\Deha\bin\Debug\EntityFramework.SqlServer.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Deha2\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha2\Deha\Deha\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha2\Deha\Deha\obj\Debug\Deha.csproj.CopyComplete
+D:\Deha2\Deha\Deha\obj\Debug\Deha.Forms.FirmaAdiSor.resources
+D:\Deha - Copy\Deha\Deha\bin\Debug\Deha.exe.config
+D:\Deha - Copy\Deha\Deha\bin\Debug\Deha.exe
+D:\Deha - Copy\Deha\Deha\bin\Debug\Deha.pdb
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\EntityFramework.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\EntityFramework.SqlServer.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\EntityFramework.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\EntityFramework.SqlServer.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.Adet.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.AdetveM2.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.AlinacakKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.AracKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.AyarlarKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.BolgeKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.DirekSatis.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.FirmaAdiSor.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.FirmaKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.GenelRaporDisaAktar.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.GiderEkle.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.KullaniciKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.LoginPage.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.MusteriKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.MusteriListesi.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.SistemAyarlari.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.SmsSablonKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.SmsUyelikKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.SplashScreen1.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.TeslimveTahsilat.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.UrunKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.UrunListesi.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Forms.YikanacakKart.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.AlinacaklarListesi.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.Properties.Resources.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.MainForm.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.AnaSayfa.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.Araclar.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.Ayarlar.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.Bolgeler.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.Firmalar.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.GenelRapor.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.GunOzeti.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.HizmetRaporlari.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.Kullanicilar.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.Musteriler.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.SmsSablonlari.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.SmsUyelikleri.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.TeslimListesi.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.Urunler.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.UrunSatisRaporlari.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.UserControls.YikanacaklarListesi.resources
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.csproj.GenerateResource.cache
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.exe.licenses
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.csproj.CoreCompileInputs.cache
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.csproj.CopyComplete
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.exe
+D:\Deha - Copy\Deha\Deha\obj\Debug\Deha.pdb
+D:\Deha\Deha\Deha\bin\Debug\Deha.exe.config
+D:\Deha\Deha\Deha\bin\Debug\Deha.exe
+D:\Deha\Deha\Deha\bin\Debug\Deha.pdb
+D:\Deha\Deha\Deha\bin\Debug\Dapper.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraWizard.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\EntityFramework.dll
+D:\Deha\Deha\Deha\bin\Debug\EntityFramework.SqlServer.dll
+D:\Deha\Deha\Deha\bin\Debug\Newtonsoft.Json.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Deha\Deha\Deha\bin\Debug\Dapper.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraWizard.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\EntityFramework.xml
+D:\Deha\Deha\Deha\bin\Debug\EntityFramework.SqlServer.xml
+D:\Deha\Deha\Deha\bin\Debug\Newtonsoft.Json.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\Deha\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.XtraWizard.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.XtraWizard.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.XtraWizard.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.XtraWizard.v20.1.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Deha\Deha\Deha\obj\Debug\Deha.csprojAssemblyReference.cache
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.Adet.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.AdetveM2.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.AlacakEkle.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.AlinacakKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.AracKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.AracSecme.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.AyarlarKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.BolgeKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.DirekSatis.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.FirmaAdiSor.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.FirmaKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.Fisler.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.GecmisSiparisler.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.GenelRaporDisaAktar.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.GiderEkle.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.KullaniciKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.LoginPage.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.MusteriKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.MusteriListesi.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.ServisSec.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.frmPrint.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.PrintTeslimAlinacaklar.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.PrintTeslimEdilecekler.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.SistemAyarlari.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.SmsSablonKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.SmsUyelikKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.SplashScreen1.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.TahsilatYap.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.TeslimveTahsilat.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.UrunKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.UrunListesi.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Forms.YikanacakKart.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.AlinacaklarListesi.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.Properties.Resources.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.MainForm.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.AnaSayfa.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.Araclar.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.Ayarlar.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.Bolgeler.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.Firmalar.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.GenelRapor.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.GunOzeti.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.HizmetRaporlari.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.IptalEdilenler.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.Kullanicilar.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.Musteriler.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.SmsSablonlari.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.SmsUyelikleri.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.TeslimListesi.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.Urunler.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.UrunSatisRaporlari.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.UserControls.YikanacaklarListesi.resources
+D:\Deha\Deha\Deha\obj\Debug\Deha.csproj.GenerateResource.cache
+D:\Deha\Deha\Deha\obj\Debug\Deha.exe.licenses
+D:\Deha\Deha\Deha\obj\Debug\Deha.csproj.CoreCompileInputs.cache
+D:\Deha\Deha\Deha\obj\Debug\Deha.csproj.CopyComplete
+D:\Deha\Deha\Deha\obj\Debug\Deha.exe
+D:\Deha\Deha\Deha\obj\Debug\Deha.pdb
+D:\DehaDemo\Deha\Deha\bin\Debug\Deha.exe.config
+D:\DehaDemo\Deha\Deha\bin\Debug\Deha.exe
+D:\DehaDemo\Deha\Deha\bin\Debug\Deha.pdb
+D:\DehaDemo\Deha\Deha\bin\Debug\Dapper.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Images.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraWizard.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\EntityFramework.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\EntityFramework.SqlServer.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\Newtonsoft.Json.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\Dapper.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Data.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraWizard.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\EntityFramework.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\EntityFramework.SqlServer.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\Newtonsoft.Json.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.XtraWizard.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.XtraWizard.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.XtraWizard.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.XtraWizard.v20.1.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.csprojAssemblyReference.cache
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.Adet.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.AdetveM2.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.AlacakEkle.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.AlinacakKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.AracKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.AracSecme.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.AyarlarKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.BolgeKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.DirekSatis.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.FirmaAdiSor.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.FirmaKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.Fisler.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.GecmisSiparisler.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.GenelRaporDisaAktar.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.GiderEkle.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.KullaniciKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.LoginPage.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.MusteriKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.MusteriListesi.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.ServisSec.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.frmPrint.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.PrintTeslimAlinacaklar.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.PrintTeslimEdilecekler.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.SistemAyarlari.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.SmsSablonKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.SmsUyelikKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.SplashScreen1.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.TahsilatYap.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.TeslimveTahsilat.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.UrunKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.UrunListesi.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Forms.YikanacakKart.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.AlinacaklarListesi.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.Properties.Resources.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.MainForm.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.AnaSayfa.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.Araclar.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.Ayarlar.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.Bolgeler.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.Firmalar.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.GenelRapor.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.GunOzeti.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.HizmetRaporlari.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.IptalEdilenler.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.Kullanicilar.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.Musteriler.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.SmsSablonlari.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.SmsUyelikleri.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.TeslimListesi.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.Urunler.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.UrunSatisRaporlari.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.UserControls.YikanacaklarListesi.resources
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.csproj.GenerateResource.cache
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.exe.licenses
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.csproj.CoreCompileInputs.cache
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.csproj.CopyComplete
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.exe
+D:\DehaDemo\Deha\Deha\obj\Debug\Deha.pdb

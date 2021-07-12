@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="halipos_testModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="halipos_testEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="areas" EntityType="halipos_testModel.area" />
+    <EntitySet Name="companies" EntityType="halipos_testModel.company" />
+    <EntitySet Name="customers" EntityType="halipos_testModel.customer" />
+    <EntitySet Name="invoices" EntityType="halipos_testModel.invoice" />
+    <EntitySet Name="orders" EntityType="halipos_testModel.order" />
+    <EntitySet Name="orders_detail" EntityType="halipos_testModel.orders_detail" />
+    <EntitySet Name="printer_list" EntityType="halipos_testModel.printer_list" />
+    <EntitySet Name="products" EntityType="halipos_testModel.product" />
+    <EntitySet Name="receiveds" EntityType="halipos_testModel.received" />
+    <EntitySet Name="settings" EntityType="halipos_testModel.setting" />
+    <EntitySet Name="sms_template" EntityType="halipos_testModel.sms_template" />
+    <EntitySet Name="sms_users" EntityType="halipos_testModel.sms_users" />
+    <EntitySet Name="smslogs" EntityType="halipos_testModel.smslog" />
+    <EntitySet Name="sysdiagrams" EntityType="halipos_testModel.sysdiagram" />
+    <EntitySet Name="users" EntityType="halipos_testModel.user" />
+    <EntitySet Name="vehicles" EntityType="halipos_testModel.vehicle" />
+    <AssociationSet Name="areacustomer" Association="halipos_testModel.areacustomer">
+      <End Role="area" EntitySet="areas" />
+      <End Role="customer" EntitySet="customers" />
+    </AssociationSet>
+    <AssociationSet Name="customerreceived" Association="halipos_testModel.customerreceived">
+      <End Role="customer" EntitySet="customers" />
+      <End Role="received" EntitySet="receiveds" />
+    </AssociationSet>
+    <AssociationSet Name="vehiclereceived" Association="halipos_testModel.vehiclereceived">
+      <End Role="vehicle" EntitySet="vehicles" />
+      <End Role="received" EntitySet="receiveds" />
+    </AssociationSet>
+    <AssociationSet Name="receiveduser" Association="halipos_testModel.receiveduser">
+      <End Role="received" EntitySet="receiveds" />
+      <End Role="user" EntitySet="users" />
+    </AssociationSet>
+    <AssociationSet Name="receivedcompany" Association="halipos_testModel.receivedcompany">
+      <End Role="received" EntitySet="receiveds" />
+      <End Role="company" EntitySet="companies" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="area">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="customers" Relationship="halipos_testModel.areacustomer" FromRole="area" ToRole="customer" />
+  </EntityType>
+  <EntityType Name="company">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ref_sms_users" Type="Int32" />
+    <Property Name="ref_upon_receipt" Type="Int32" />
+    <Property Name="ref_new_order_sms" Type="Int32" />
+    <Property Name="ref_when_delivered" Type="Int32" />
+    <Property Name="send_upon_receipt" Type="Int32" />
+    <Property Name="send_new_order_sms" Type="Int32" />
+    <Property Name="send_when_delivered" Type="Int32" />
+    <Property Name="color" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="received" Relationship="halipos_testModel.receivedcompany" FromRole="company" ToRole="received" />
+    <Property Name="received_id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="countryCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="gsm" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ref_areas" Type="Int32" Nullable="false" />
+    <Property Name="adress" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="coordinat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="balance" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="area" Relationship="halipos_testModel.areacustomer" FromRole="customer" ToRole="area" />
+    <Property Name="area_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="receiveds" Relationship="halipos_testModel.customerreceived" FromRole="customer" ToRole="received" />
+  </EntityType>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ref_customer" Type="Int32" />
+    <Property Name="ref_orders" Type="Int32" />
+    <Property Name="total" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="collect" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="type" Type="Int32" />
+    <Property Name="payment_type" Type="Int32" />
+    <Property Name="note" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ref_received" Type="Int32" />
+    <Property Name="total" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="discount" Type="Int32" Nullable="false" />
+    <Property Name="amount" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+    <Property Name="calculatedUsed" Type="Boolean" />
+    <Property Name="ranking" Type="Int32" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <Property Name="mod_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="orders_detail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ref_orders" Type="Int32" Nullable="false" />
+    <Property Name="product_id" Type="Int32" Nullable="false" />
+    <Property Name="m2" Type="Double" Nullable="false" />
+    <Property Name="product_number" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="printer_list">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="names" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="adress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="received">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="purchase_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="received_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ref_customer" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="note" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ref_vehicle" Type="Int32" />
+    <Property Name="ref_company" Type="Int32" />
+    <Property Name="ranking" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <Property Name="mod_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="customer" Relationship="halipos_testModel.customerreceived" FromRole="received" ToRole="customer" />
+    <Property Name="customer_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="vehicle" Relationship="halipos_testModel.vehiclereceived" FromRole="received" ToRole="vehicle" />
+    <Property Name="vehicle_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="users" Relationship="halipos_testModel.receiveduser" FromRole="received" ToRole="user" />
+    <NavigationProperty Name="companies" Relationship="halipos_testModel.receivedcompany" FromRole="received" ToRole="company" />
+  </EntityType>
+  <EntityType Name="setting">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="business_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="money_unit" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="howmanyday_process" Type="Int32" />
+    <Property Name="onesignal_id" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="app_version" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="max_firm" Type="Int32" />
+  </EntityType>
+  <EntityType Name="sms_template">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="message" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="Byte" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_user" Type="Int32" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="sms_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="smslog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="upload_sms" Type="Int32" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="fullname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ref_vehicle" Type="Int32" />
+    <Property Name="admin" Type="Boolean" Nullable="false" />
+    <Property Name="auth_direct_sale" Type="Boolean" Nullable="false" />
+    <Property Name="auth_order" Type="Boolean" Nullable="false" />
+    <Property Name="auth_customer_change" Type="Boolean" Nullable="false" />
+    <Property Name="auth_expense_add" Type="Boolean" Nullable="false" />
+    <Property Name="auth_report" Type="Boolean" Nullable="false" />
+    <Property Name="auth_product" Type="Boolean" Nullable="false" />
+    <Property Name="auth_vehicle" Type="Boolean" Nullable="false" />
+    <Property Name="auth_area" Type="Boolean" Nullable="false" />
+    <Property Name="auth_settings" Type="Boolean" Nullable="false" />
+    <Property Name="auth_company" Type="Boolean" Nullable="false" />
+    <Property Name="auth_collective_sms" Type="Boolean" Nullable="false" />
+    <Property Name="auth_sms_user" Type="Boolean" Nullable="false" />
+    <Property Name="auth_all_vehicle" Type="Boolean" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <Property Name="ref_printnormal" Type="Int32" />
+    <Property Name="ref_printtag" Type="Int32" />
+    <NavigationProperty Name="received" Relationship="halipos_testModel.receiveduser" FromRole="user" ToRole="received" />
+    <Property Name="received_id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vehicle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="ref_user" Type="Int32" />
+    <Property Name="ref_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="receiveds" Relationship="halipos_testModel.vehiclereceived" FromRole="vehicle" ToRole="received" />
+  </EntityType>
+  <Association Name="areacustomer">
+    <End Type="halipos_testModel.area" Role="area" Multiplicity="1" />
+    <End Type="halipos_testModel.customer" Role="customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="area">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="customer">
+        <PropertyRef Name="area_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="customerreceived">
+    <End Type="halipos_testModel.customer" Role="customer" Multiplicity="1" />
+    <End Type="halipos_testModel.received" Role="received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="customer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="vehiclereceived">
+    <End Type="halipos_testModel.vehicle" Role="vehicle" Multiplicity="1" />
+    <End Type="halipos_testModel.received" Role="received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vehicle">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="vehicle_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="receiveduser">
+    <End Type="halipos_testModel.received" Role="received" Multiplicity="1" />
+    <End Type="halipos_testModel.user" Role="user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="received">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="user">
+        <PropertyRef Name="received_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="receivedcompany">
+    <End Type="halipos_testModel.received" Role="received" Multiplicity="1" />
+    <End Type="halipos_testModel.company" Role="company" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="received">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="company">
+        <PropertyRef Name="received_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

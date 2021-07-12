@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="halipos_testModelStoreContainer" CdmEntityContainer="halipos_testEntities">
+    <EntitySetMapping Name="areas">
+      <EntityTypeMapping TypeName="halipos_testModel.area">
+        <MappingFragment StoreEntitySet="areas">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="companies">
+      <EntityTypeMapping TypeName="halipos_testModel.company">
+        <MappingFragment StoreEntitySet="company">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="send_when_delivered" ColumnName="send_when_delivered" />
+          <ScalarProperty Name="send_new_order_sms" ColumnName="send_new_order_sms" />
+          <ScalarProperty Name="send_upon_receipt" ColumnName="send_upon_receipt" />
+          <ScalarProperty Name="ref_when_delivered" ColumnName="ref_when_delivered" />
+          <ScalarProperty Name="ref_new_order_sms" ColumnName="ref_new_order_sms" />
+          <ScalarProperty Name="ref_upon_receipt" ColumnName="ref_upon_receipt" />
+          <ScalarProperty Name="ref_sms_users" ColumnName="ref_sms_users" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="halipos_testModel.customer">
+        <MappingFragment StoreEntitySet="customers">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+          <ScalarProperty Name="coordinat" ColumnName="coordinat" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="ref_areas" ColumnName="ref_areas" />
+          <ScalarProperty Name="gsm" ColumnName="gsm" />
+          <ScalarProperty Name="countryCode" ColumnName="countryCode" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="invoices">
+      <EntityTypeMapping TypeName="halipos_testModel.invoice">
+        <MappingFragment StoreEntitySet="invoice">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="payment_type" ColumnName="payment_type" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="collect" ColumnName="collect" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="ref_orders" ColumnName="ref_orders" />
+          <ScalarProperty Name="ref_customer" ColumnName="ref_customer" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="halipos_testModel.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="mod_date" ColumnName="mod_date" />
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="ranking" ColumnName="ranking" />
+          <ScalarProperty Name="calculatedUsed" ColumnName="calculatedUsed" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="ref_received" ColumnName="ref_received" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders_detail">
+      <EntityTypeMapping TypeName="halipos_testModel.orders_detail">
+        <MappingFragment StoreEntitySet="orders_detail">
+          <ScalarProperty Name="product_number" ColumnName="product_number" />
+          <ScalarProperty Name="m2" ColumnName="m2" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="ref_orders" ColumnName="ref_orders" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="printer_list">
+      <EntityTypeMapping TypeName="halipos_testModel.printer_list">
+        <MappingFragment StoreEntitySet="printer_list">
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="names" ColumnName="names" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="halipos_testModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="receiveds">
+      <EntityTypeMapping TypeName="halipos_testModel.received">
+        <MappingFragment StoreEntitySet="received">
+          <ScalarProperty Name="mod_date" ColumnName="mod_date" />
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="ranking" ColumnName="ranking" />
+          <ScalarProperty Name="ref_company" ColumnName="ref_company" />
+          <ScalarProperty Name="ref_vehicle" ColumnName="ref_vehicle" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="ref_customer" ColumnName="ref_customer" />
+          <ScalarProperty Name="received_date" ColumnName="received_date" />
+          <ScalarProperty Name="purchase_date" ColumnName="purchase_date" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="settings">
+      <EntityTypeMapping TypeName="halipos_testModel.setting">
+        <MappingFragment StoreEntitySet="settings">
+          <ScalarProperty Name="max_firm" ColumnName="max_firm" />
+          <ScalarProperty Name="app_version" ColumnName="app_version" />
+          <ScalarProperty Name="onesignal_id" ColumnName="onesignal_id" />
+          <ScalarProperty Name="howmanyday_process" ColumnName="howmanyday_process" />
+          <ScalarProperty Name="money_unit" ColumnName="money_unit" />
+          <ScalarProperty Name="business_name" ColumnName="business_name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sms_template">
+      <EntityTypeMapping TypeName="halipos_testModel.sms_template">
+        <MappingFragment StoreEntitySet="sms_template">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sms_users">
+      <EntityTypeMapping TypeName="halipos_testModel.sms_users">
+        <MappingFragment StoreEntitySet="sms_users">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="smslogs">
+      <EntityTypeMapping TypeName="halipos_testModel.smslog">
+        <MappingFragment StoreEntitySet="smslog">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="upload_sms" ColumnName="upload_sms" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="halipos_testModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="halipos_testModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="ref_printtag" ColumnName="ref_printtag" />
+          <ScalarProperty Name="ref_printnormal" ColumnName="ref_printnormal" />
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="auth_all_vehicle" ColumnName="auth_all_vehicle" />
+          <ScalarProperty Name="auth_sms_user" ColumnName="auth_sms_user" />
+          <ScalarProperty Name="auth_collective_sms" ColumnName="auth_collective_sms" />
+          <ScalarProperty Name="auth_company" ColumnName="auth_company" />
+          <ScalarProperty Name="auth_settings" ColumnName="auth_settings" />
+          <ScalarProperty Name="auth_area" ColumnName="auth_area" />
+          <ScalarProperty Name="auth_vehicle" ColumnName="auth_vehicle" />
+          <ScalarProperty Name="auth_product" ColumnName="auth_product" />
+          <ScalarProperty Name="auth_report" ColumnName="auth_report" />
+          <ScalarProperty Name="auth_expense_add" ColumnName="auth_expense_add" />
+          <ScalarProperty Name="auth_customer_change" ColumnName="auth_customer_change" />
+          <ScalarProperty Name="auth_order" ColumnName="auth_order" />
+          <ScalarProperty Name="auth_direct_sale" ColumnName="auth_direct_sale" />
+          <ScalarProperty Name="admin" ColumnName="admin" />
+          <ScalarProperty Name="ref_vehicle" ColumnName="ref_vehicle" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vehicles">
+      <EntityTypeMapping TypeName="halipos_testModel.vehicle">
+        <MappingFragment StoreEntitySet="vehicle">
+          <ScalarProperty Name="ref_date" ColumnName="ref_date" />
+          <ScalarProperty Name="ref_user" ColumnName="ref_user" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

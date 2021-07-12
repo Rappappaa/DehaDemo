@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="halipos_testModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="areas">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="ref_user" Type="int" Nullable="false" />
+    <Property Name="ref_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="company">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="250" />
+    <Property Name="ref_sms_users" Type="int" />
+    <Property Name="ref_upon_receipt" Type="int" />
+    <Property Name="ref_new_order_sms" Type="int" />
+    <Property Name="ref_when_delivered" Type="int" />
+    <Property Name="send_upon_receipt" Type="int" />
+    <Property Name="send_new_order_sms" Type="int" />
+    <Property Name="send_when_delivered" Type="int" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="ref_user" Type="int" Nullable="false" />
+    <Property Name="ref_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="countryCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="gsm" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ref_areas" Type="int" Nullable="false" />
+    <Property Name="adress" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="coordinat" Type="nvarchar" MaxLength="50" />
+    <Property Name="balance" Type="money" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="ref_user" Type="int" />
+    <Property Name="ref_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ref_customer" Type="int" />
+    <Property Name="ref_orders" Type="int" />
+    <Property Name="total" Type="money" Nullable="false" />
+    <Property Name="collect" Type="money" />
+    <Property Name="type" Type="int" />
+    <Property Name="payment_type" Type="int" />
+    <Property Name="note" Type="nvarchar" MaxLength="500" />
+    <Property Name="ref_user" Type="int" />
+    <Property Name="ref_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="orders">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ref_received" Type="int" />
+    <Property Name="total" Type="money" Nullable="false" />
+    <Property Name="discount" Type="int" Nullable="false" />
+    <Property Name="amount" Type="money" Nullable="false" />
+    <Property Name="status" Type="bit" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="type" Type="int" Nullable="false" />
+    <Property Name="calculatedUsed" Type="bit" />
+    <Property Name="ranking" Type="int" />
+    <Property Name="ref_user" Type="int" Nullable="false" />
+    <Property Name="ref_date" Type="datetime" />
+    <Property Name="mod_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="orders_detail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ref_orders" Type="int" Nullable="false" />
+    <Property Name="m2" Type="float" Nullable="false" />
+    <Property Name="product_number" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="price" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="printer_list">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="names" Type="nvarchar" MaxLength="255" />
+    <Property Name="adress" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="price" Type="money" Nullable="false" />
+    <Property Name="type" Type="int" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="ref_user" Type="int" Nullable="false" />
+    <Property Name="ref_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="received">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="purchase_date" Type="datetime" Nullable="false" />
+    <Property Name="received_date" Type="datetime" Nullable="false" />
+    <Property Name="ref_customer" Type="int" Nullable="false" />
+    <Property Name="status" Type="bit" Nullable="false" />
+    <Property Name="active" Type="bit" />
+    <Property Name="note" Type="nvarchar" MaxLength="250" />
+    <Property Name="ref_vehicle" Type="int" />
+    <Property Name="ref_company" Type="int" />
+    <Property Name="ranking" Type="nvarchar" MaxLength="250" />
+    <Property Name="ref_user" Type="int" Nullable="false" />
+    <Property Name="ref_date" Type="datetime" />
+    <Property Name="mod_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="settings">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="business_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="money_unit" Type="nvarchar" MaxLength="10" />
+    <Property Name="howmanyday_process" Type="int" />
+    <Property Name="onesignal_id" Type="nvarchar" MaxLength="250" />
+    <Property Name="app_version" Type="nvarchar" MaxLength="50" />
+    <Property Name="max_firm" Type="int" />
+  </EntityType>
+  <EntityType Name="sms_template">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="message" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="type" Type="tinyint" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="ref_user" Type="int" Nullable="false" />
+    <Property Name="ref_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sms_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="title" Type="nvarchar" MaxLength="50" />
+    <Property Name="active" Type="bit" />
+    <Property Name="ref_user" Type="int" />
+    <Property Name="ref_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="smslog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="upload_sms" Type="int" />
+    <Property Name="ref_user" Type="int" />
+    <Property Name="ref_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="fullname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ref_vehicle" Type="int" />
+    <Property Name="admin" Type="bit" Nullable="false" />
+    <Property Name="auth_direct_sale" Type="bit" Nullable="false" />
+    <Property Name="auth_order" Type="bit" Nullable="false" />
+    <Property Name="auth_customer_change" Type="bit" Nullable="false" />
+    <Property Name="auth_expense_add" Type="bit" Nullable="false" />
+    <Property Name="auth_report" Type="bit" Nullable="false" />
+    <Property Name="auth_product" Type="bit" Nullable="false" />
+    <Property Name="auth_vehicle" Type="bit" Nullable="false" />
+    <Property Name="auth_area" Type="bit" Nullable="false" />
+    <Property Name="auth_settings" Type="bit" Nullable="false" />
+    <Property Name="auth_company" Type="bit" Nullable="false" />
+    <Property Name="auth_collective_sms" Type="bit" Nullable="false" />
+    <Property Name="auth_sms_user" Type="bit" Nullable="false" />
+    <Property Name="auth_all_vehicle" Type="bit" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="ref_date" Type="datetime" />
+    <Property Name="ref_printnormal" Type="int" />
+    <Property Name="ref_printtag" Type="int" />
+    <Property Name="auth_offline_mode" Type="bit" />
+  </EntityType>
+  <EntityType Name="vehicle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="250" />
+    <Property Name="active" Type="bit" />
+    <Property Name="ref_user" Type="int" />
+    <Property Name="ref_date" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_invoice_customers">
+    <End Role="customers" Type="Self.customers" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="invoice" Type="Self.invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="invoice">
+        <PropertyRef Name="ref_customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_invoice_users">
+    <End Role="users" Type="Self.users" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="invoice" Type="Self.invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="invoice">
+        <PropertyRef Name="ref_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orders_detail_orders">
+    <End Role="orders" Type="Self.orders" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="orders_detail" Type="Self.orders_detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="orders">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="orders_detail">
+        <PropertyRef Name="ref_orders" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orders_received">
+    <End Role="received" Type="Self.received" Multiplicity="0..1" />
+    <End Role="orders" Type="Self.orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="received">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="ref_received" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_received_company">
+    <End Role="company" Type="Self.company" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="company">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_company" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_received_customers">
+    <End Role="customers" Type="Self.customers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_received_users">
+    <End Role="users" Type="Self.users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_received_vehicle">
+    <End Role="vehicle" Type="Self.vehicle" Multiplicity="0..1" />
+    <End Role="received" Type="Self.received" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vehicle">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="received">
+        <PropertyRef Name="ref_vehicle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="halipos_testModelStoreContainer">
+    <EntitySet Name="areas" EntityType="Self.areas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="company" EntityType="Self.company" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customers" EntityType="Self.customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="invoice" EntityType="Self.invoice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="orders" EntityType="Self.orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="orders_detail" EntityType="Self.orders_detail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="printer_list" EntityType="Self.printer_list" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="received" EntityType="Self.received" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="settings" EntityType="Self.settings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sms_template" EntityType="Self.sms_template" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sms_users" EntityType="Self.sms_users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="smslog" EntityType="Self.smslog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vehicle" EntityType="Self.vehicle" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_invoice_customers" Association="Self.FK_invoice_customers">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="invoice" EntitySet="invoice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_invoice_users" Association="Self.FK_invoice_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="invoice" EntitySet="invoice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orders_detail_orders" Association="Self.FK_orders_detail_orders">
+      <End Role="orders" EntitySet="orders" />
+      <End Role="orders_detail" EntitySet="orders_detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orders_received" Association="Self.FK_orders_received">
+      <End Role="received" EntitySet="received" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_received_company" Association="Self.FK_received_company">
+      <End Role="company" EntitySet="company" />
+      <End Role="received" EntitySet="received" />
+    </AssociationSet>
+    <AssociationSet Name="FK_received_customers" Association="Self.FK_received_customers">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="received" EntitySet="received" />
+    </AssociationSet>
+    <AssociationSet Name="FK_received_users" Association="Self.FK_received_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="received" EntitySet="received" />
+    </AssociationSet>
+    <AssociationSet Name="FK_received_vehicle" Association="Self.FK_received_vehicle">
+      <End Role="vehicle" EntitySet="vehicle" />
+      <End Role="received" EntitySet="received" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

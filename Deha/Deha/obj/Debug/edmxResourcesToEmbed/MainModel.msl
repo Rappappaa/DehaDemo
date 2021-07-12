@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="main_haliposModelStoreContainer" CdmEntityContainer="main_haliposEntities">
+    <EntitySetMapping Name="haliposmains">
+      <EntityTypeMapping TypeName="main_haliposModel.haliposmain">
+        <MappingFragment StoreEntitySet="haliposmain">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="businesscode" ColumnName="businesscode" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="start_date" ColumnName="start_date" />
+          <ScalarProperty Name="end_date" ColumnName="end_date" />
+          <ScalarProperty Name="business_phone" ColumnName="business_phone" />
+          <ScalarProperty Name="business_mail" ColumnName="business_mail" />
+          <ScalarProperty Name="business_owner" ColumnName="business_owner" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="dbname" ColumnName="dbname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

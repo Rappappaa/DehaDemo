@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="main_haliposModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="haliposmain">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="businesscode" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="start_date" Type="datetime" Nullable="false" />
+    <Property Name="end_date" Type="datetime" Nullable="false" />
+    <Property Name="business_phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="business_mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="business_owner" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="active" Type="bit" />
+    <Property Name="dbname" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityContainer Name="main_haliposModelStoreContainer">
+    <EntitySet Name="haliposmain" EntityType="Self.haliposmain" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
