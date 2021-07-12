@@ -40,7 +40,7 @@ namespace Deha.Forms
             }
             else
             {
-                string ConnectionString = string.Format("data source=89.252.184.167\\MSSQLSERVER2017;initial catalog={0};persist security info=True;user id=sa;password=dehapos@1.;multipleactiveresultsets=True;application name=EntityFramework", _haliposman.dbname);
+                string ConnectionString = string.Format();
                 try
                 {
                         Settings.Default["_businessname"] = txtIsletmeAdi.Text;
